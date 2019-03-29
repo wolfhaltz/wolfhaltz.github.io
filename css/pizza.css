@@ -1,4 +1,7 @@
 /* GENERAL STUFF */
+html {
+  margin: 0;
+}
 a {
   color: red;
   text-decoration: none;
