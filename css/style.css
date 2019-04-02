@@ -6,9 +6,9 @@
 	01 My everything <3
 	02 Header
 	03 Description
-	04 Quote
-	05 Schizophrenia
-	06 Blog
+  04 Quote
+  05 Portfolio
+	06 Schizophrenia
 	07 Footer
 	08 Responsive
  
@@ -425,7 +425,42 @@ span, a, a:hover {
 
 
 /* ----------------------------------------------------------------
-                      [ END: Description ]
+     [ 05 Start Portfolio ]
+-----------------------------------------------------------------*/
+.portfolio_section{
+  padding: 5%;
+}
+.portfolio_container{
+  position: absolute;
+  width: 60%;
+  left: 10%;
+}
+.portfolio_img{
+  padding: 5px;
+  width: 200px;
+  height: auto;
+}
+
+/* ----------------------------------------------------------------
+                      [ END: Portfolio ]
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+     [ 06 Start Schizophrenia ]
+-----------------------------------------------------------------*/
+.schizophrenia{
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  right: 100px;
+}
+
+.schizophrenia_img{
+  display:none;
+  width: 100%;
+}
+/* ----------------------------------------------------------------
+                      [ END: Schizophrenia ]
 -----------------------------------------------------------------*/
 
 /* ----------------------------------------------------------------
