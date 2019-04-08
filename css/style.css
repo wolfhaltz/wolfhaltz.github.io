@@ -435,6 +435,9 @@ span, a, a:hover {
   width: 60%;
   left: 10%;
 }
+
+.portfolio_container a {padding: 10px;}
+
 .portfolio_img{
   padding: 5px;
   width: 200px;
@@ -452,7 +455,7 @@ span, a, a:hover {
   width: 200px;
   height: 300px;
   position: absolute;
-  right: 100px;
+  right: 0px;
 }
 
 .schizophrenia_img{
@@ -466,6 +469,11 @@ span, a, a:hover {
 /* ----------------------------------------------------------------
      [ 05 Start Quote ]
 -----------------------------------------------------------------*/
+.img_parallax_section{
+  margin-top: 300px !important;
+}
+
+
 .quote {
   background-attachment: fixed;
 }
