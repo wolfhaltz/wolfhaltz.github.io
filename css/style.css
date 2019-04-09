@@ -430,13 +430,31 @@ span, a, a:hover {
 .portfolio_section{
   padding: 5%;
 }
-.portfolio_container{
-  position: absolute;
-  width: 60%;
-  left: 10%;
+
+/* ROW */
+* {
+  box-sizing: border-box;
 }
 
-.portfolio_container a {padding: 10px;}
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* create two equal columns */
+.portfolio_column{
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+.portfolio_column img,
+.portfolio_column *{
+  margin-top: 8px;
+  vertical-align: middle;
+}
 
 .portfolio_img{
   padding: 5px;
@@ -469,11 +487,6 @@ span, a, a:hover {
 /* ----------------------------------------------------------------
      [ 05 Start Quote ]
 -----------------------------------------------------------------*/
-.img_parallax_section{
-  margin-top: 300px !important;
-}
-
-
 .quote {
   background-attachment: fixed;
 }

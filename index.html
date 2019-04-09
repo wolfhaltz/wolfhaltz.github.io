@@ -121,21 +121,40 @@
         START: Portfolio
     -->
     <section class="portfolio_section">
-        <div class="offset-lg-2 col-lg-8 text-center">
-            <h5 class="extra-text">What I've done?</h5>
-            <div class="portfolio_container">
-                <!-- pizza -->
-                <a href="pizza.html" target="_blank">
-                    <img class="portfolio_img" src="img/pizza/logo-helloPizza.png" />
-                </a>
+        <div class="text-center">
 
-                <!-- -->
-                <a href="coming_soon.html" target="_blank">
-                    <img class="portfolio_img" src="img/coming_soon/alan-labisch-1279976-unsplash.jpg"/>
-                </a>
+            <div id="myGridPortfolio" style="padding:10px;">
+                <h1 class="extra-text"><span style="color:darkred; font-weight: 700;">Portfolio</span> Grid</h1>
+            <!-- 
+                <p>Click on the buttons to see another projects</p>
+                <button class="btn" onclick="one()">1</button>
+                <button class="btn active" onclick="two()">2</button>
+                <button class="btn" onclick="four()">4</button>
+            -->
+              </div>
 
-            </div>
+            <div class="row"> 
+                <div class="portfolio_column">
+                    <!-- PIZZA DEV MEDIA TUTORIAL -->
+                    <a href="pizza.html" target="_blank">
+                    <img src="img/pizza/logo-helloPizza.png" style="width:90%">
+                    </a>
 
+                    <!-- TUTORIAL BASIC SHAPES CSS -->
+                    <a href="tutorial_css_basic_shapes.html" target="_blank">
+                        <h4 class="extra-text">Basic Shapes<br><span style="color:darkred; font-size:70%;">CSS Tutorial</span> </h4>
+                    </a>
+
+                    <!-- COMING SOON -->
+                    <a href="coming_soon.html" target="_blank">
+                        <h4 class="extra-text">Coming Soon<br><span style="color:darkred; font-size:70%;">Template</span></h4>
+                    </a>
+                </div>
+
+
+            </div><!-- END OF ROW-->
+
+            <!--
             <div class="schizophrenia">
                 <h5>Our team!</h5>
                 <h4 class="schizophrenia_img">Front-End</h4>
@@ -144,7 +163,7 @@
                 <img class="schizophrenia_img" src="img/myself/front_end.jfif" />
                 <p class="schizophrenia_img">Looks like kind schizophrenic.</p>
                 <p class="schizophrenia_img">LOL</p>
-            </div>
+            </div>-->
         </div>
         </section>
 
@@ -282,7 +301,6 @@
 
         <!-- é pouco, mas trabalho honesto akakakaka -->
         <script src="js/index.js"></script>
-
 
     </body>
 </html>
