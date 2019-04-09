@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>How to do a square?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/basic_shapes.css" />
+    <script src="js/basic_shapes.js"></script>
+</head>
+<body>
+
+<!-- BACKGROUND -->
+<div style="position: fixed; z-index: -99; width: 100%; height: 100%; filter: grayscale(100%) blur(5px); -webkit-filter: grayscale(100%) blur(5px);">
+    <iframe frameborder="0" height="100%" width="100%" 
+        src="https://www.youtube.com/embed/5souw4K5UQc">
+    </iframe>
+</div>
+<!-- TITLE -->
+<h1>Squares, Triangles and Circles</h1>
+<p>Click to see how to do:</p>
+
+<!-- TAB LINKS -->
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'square')">Square</button>
+    <button class="tablinks" onclick="openTab(event, 'rectangle')">Rectangle</button>
+    <button class="tablinks" onclick="openTab(event, 'triangle')">Triangle</button>
+    <button class="tablinks" onclick="openTab(event, 'circle')">Circle</button>
+</div>
+
+    <!-- TAB CONTENT -->
+<div id="square" class="tabcontent">
+    <p>First of all, imagine a square in your mind. Something like the down below, huh?</p>
+    <div class="square_lines"></div>
+    <p>Two horizontal lines plus two vertical lines.
+        So we can do it:<br>
+        <b>.square</b>{<br>
+            width: 100px;<br>
+            height: 100px;<br>
+            background-color: blueviolet;<br>
+        }
+    </p>
+    <div class="square"></div>
+</div>
+
+<div id="rectangle" class="tabcontent">
+    <p>So, a rectangle is just like two squares together:</p>
+    <div class="square_lines"></div><div class="square_lines"></div>
+    <p>Two horizontal lines plus two vertical lines.
+        So we can do it:<br>
+        <b>.rectangle</b>{<br>
+            width: 200px;<br>
+            height: 100px;<br>
+            background-color: blueviolet;<br>
+        }<br>
+    </p>
+    <div class="rectangle"></div>
+</div>
+
+<div id="triangle" class="tabcontent">
+    <p>A triangle is a little bit harder, but isn't a seven head beast.</p>
+    <div class="triangle"></div>
+    <p>So we can do it:<br>
+        <b>.triangle</b>{<br>
+            width: 0;<br>
+            height: 0;<br>
+            border-left: 50px solid transparent;<br>
+            border-right: 50px solid transparent;<br>
+            border-bottom: 100px solid blueviolet;<br>
+        }<br>
+    </p>
+</div>
+
+<div id="circle" class="tabcontent">
+    <p>A circle is a square that round to much.</p>
+    <p>Catch ya square, and round it using <b>border-radius</b>:
+        <div class="circle_lines"></div>
+        <br>
+        <b>.circle</b>{ <br>
+            width: 100px; <br>
+            height: 100px; <br>
+            <b>border-radius: 50%;</b> <br>
+            background-color: blueviolet; <br>
+        } <br>
+    </p>
+    <div class="circle"></div>
+</div>
+</body>
+</html>
