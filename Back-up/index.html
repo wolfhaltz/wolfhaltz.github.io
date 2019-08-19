@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -11,8 +10,6 @@
     <meta name="keywords" content="0utsh1n3d_ portfolio front-end developer" />
     <meta name="description" content="0utsh1n3d_ | Front-end Developer Portfolio" />
     <meta name="author" content="0utsh1n3d_" />
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="#" />
@@ -27,10 +24,32 @@
     <!-- my everything <3 > -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    </head>
+    <!-- DROPIFY -->
+    <link rel="stylesheet" href="{{ asset('plugins/dropify/css/dropify.min.css') }}">
+
+    <!-- JQUERY -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+    <!-- BOOTSTRAP -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.js"></script>
+
+    <!-- include summernote css/js -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.js"></script>
+
+</head>
 
     <body>
+
  <!-- Are you ready? 
         START: Pre Loader -->
 <!--
@@ -90,15 +109,10 @@
     			</div>
     		</div>
 
-    		<div class="arrow">
-				<a href="#" data-scroll-nav="1">
-					<i class="fa fa-chevron-down"></i>
-				</a>
-			</div>
     	</header>
-
         <!-- GAME OVER: Header  -->
-        
+
+
         <!-- Are you ready? 
             START: little description -->
     	
@@ -115,6 +129,7 @@
         </section>
 
     	<!-- GAME OVER: little description -->
+
 
     <!--
         Are you ready?
@@ -154,19 +169,8 @@
 
             </div><!-- END OF ROW-->
 
-            <!--
-            <div class="schizophrenia">
-                <h5>Our team!</h5>
-                <h4 class="schizophrenia_img">Front-End</h4>
-                <img class="schizophrenia_img" src="img/myself/front_end.jfif" />
-                <h4 class="schizophrenia_img">Back-End</h4>
-                <img class="schizophrenia_img" src="img/myself/front_end.jfif" />
-                <p class="schizophrenia_img">Looks like kind schizophrenic.</p>
-                <p class="schizophrenia_img">LOL</p>
-            </div>-->
         </div>
         </section>
-
         <!-- GAME OVER: Portfolio -->
 
             
@@ -198,7 +202,6 @@
         <!-- GAME OVER: Schizophrenia  -->
 
         <!--  Are you ready?
-
             START: Blog -->
     	<section class="blog section-padding">
             <div class="container">
@@ -277,20 +280,6 @@
         </footer>
     	<!-- GAME OVER: Footer -->
 
-        <!-- jQuery -->
-		<script src="js/jquery-3.0.0.min.js"></script>
-
-	  	<!-- bootstrap -->
-		<script src="js/bootstrap.min.js"></script>
-
-		<!-- scroll the TEAM -->
-		<script src="js/scrollIt.min.js"></script>
-
-		<!-- animated.headline -->
-		<script src="js/animated.headline.js"></script>
-
-		<!-- owl carousel -->
-		<script src="js/owl.carousel.min.js"></script>
 
         <!-- here is some PARTICLES... BANG! -->
         <script src="js/particles.min.js"></script>
@@ -301,6 +290,90 @@
 
         <!-- é pouco, mas trabalho honesto akakakaka -->
         <script src="js/index.js"></script>
+
+
+     <!-- BOOTSTRAP -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <script src="{{ asset('plugins/dropify/js/dropify.min.js') }}"></script>
+
+     <script>
+           $(document).ready(function(){
+               // Basic
+               $('.dropify').dropify();
+
+               // Translated OPCIONAL TA LIGADO GALER000WwWorldWideWeb?
+               $('.dropify-fr').dropify({
+                   messages: {
+                       default: 'Glissez-déposez un fichier ici ou cliquez',
+                       replace: 'Glissez-déposez un fichier ou cliquez pour remplacer',
+                       remove:  'Supprimer',
+                       error:   'Désolé, le fichier trop volumineux'
+                   }
+               });
+
+               // Used events
+               var drEvent = $('#input-file-events').dropify();
+
+               drEvent.on('dropify.beforeClear', function(event, element){
+                   return confirm("Do you really want to delete \"" + element.file.name + "\" ?");
+               });
+
+               drEvent.on('dropify.afterClear', function(event, element){
+                   alert('File deleted');
+               });
+
+               drEvent.on('dropify.errors', function(event, element){
+                   console.log('Has Errors');
+               });
+
+               var drDestroy = $('#input-file-to-destroy').dropify();
+               drDestroy = drDestroy.data('dropify')
+               $('#toggleDropify').on('click', function(e){
+                   e.preventDefault();
+                   if (drDestroy.isDropified()) {
+                       drDestroy.destroy();
+                   } else {
+                       drDestroy.init();
+                   }
+               })
+           });
+        </script>
+
+
+     <script>
+            // get current data for navbar
+            const monthNames = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun",
+             "Jul", "Ago", "Sep", "Out", "Nov", "Dez"];
+
+            const dayNames = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado"];
+
+            const d = new Date();
+            document.getElementById("getMonth").innerHTML = monthNames[d.getMonth()];
+            document.getElementById("getDay").innerHTML = dayNames[d.getDay()];
+            document.getElementById("getDay_number").innerHTML = d.getDay();
+        </script>
+
+     <script type = "text/javascript">
+            // get current year for the footer
+            var dt = new Date();
+            document.getElementById("getCurrentYear").innerHTML = dt.getFullYear();
+        </script>
+
+     <script>
+     // MENU MOBILE
+     function openMenu() {
+       var x = document.getElementById("myLinks");
+       if (x.style.display === "block") {
+         x.style.display = "none";
+       } else {
+         x.style.display = "block";
+       }
+     }
+     </script>
 
     </body>
 </html>
