@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e85dd76-ac0d-4958-af4e-5fd4b5e5e1a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cats.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/cats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coming_soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/coming_soon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit_pics.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/credit_pics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/basic_shapes.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/basic_shapes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/coming_soon.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/coming_soon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pizza.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/pizza.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/plugins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/plugins/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/plugins/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/fontawesome-all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/plugins/fontawesome-all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/helper.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/plugins/helper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/icofont.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/plugins/icofont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/plugins/owl.carousel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugins/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/plugins/owl.theme.default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/et-line.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/et-line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/et-line.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/et-line.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-lined41d.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/et-lined41d.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-brands-400.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400d41d.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-regular-400.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400d41d.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-solid-900.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900d41d.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icofont7858.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/icofont7858.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icofont7858.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/icofont7858.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icofont7858.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/icofont7858.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icofont7858.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/fonts/icofont7858.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cats/cat_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/cats/cat_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cats/cat_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/cats/cat_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cats/hannah-troupe-349131-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/cats/hannah-troupe-349131-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cats/jae-park-1198084-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/cats/jae-park-1198084-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cats/jonas-vincent-2717-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/cats/jonas-vincent-2717-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/coming_soon/alan-labisch-1279976-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/coming_soon/alan-labisch-1279976-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/computer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/computer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/myself/front_end.jfif" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/myself/front_end.jfif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pizza/background-pizza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/pizza/background-pizza.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pizza/logo-helloPizza.png" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/pizza/logo-helloPizza.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/turing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/turing.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/youve_been_hacked.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/img/youve_been_hacked.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/animated.headline.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/animated.headline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/basic_shapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/basic_shapes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/coming_soon.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/coming_soon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.0.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/jquery-3.0.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/particles.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/particles.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scrollIt.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/js/scrollIt.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_css_basic_shapes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-up/tutorial_css_basic_shapes.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/wolfhaltz.github.io.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wolfhaltz.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wolfhaltz.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Back-up" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e85dd76-ac0d-4958-af4e-5fd4b5e5e1a1" name="Default Changelist" comment="" />
+      <created>1566186211233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566186211233</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
