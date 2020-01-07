@@ -274,13 +274,14 @@ span, a, a:hover {
   bottom: 0;
   left: 100%;
   z-index: 1;
-  background: #fff;
+  background: white;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .header .caption .butn:hover {
-  border-color: #fff;
+  border-color: white;
 }
+
 .header .caption .butn:hover:after {
   width: 100%;
   left: 0;
@@ -295,9 +296,9 @@ span, a, a:hover {
   z-index: 2;
 }
 .header .caption .butn-bg {
-  background: #fff;
-  border-color: #fff;
-}
+   background: #fff;
+   border-color: #fff;
+ }
 
 .header .caption .butn-bg span {
   color: #000;
