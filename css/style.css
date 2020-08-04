@@ -566,7 +566,7 @@ footer p {
 /* ----------------------------------------------------------------
  	 [ 08 Responsive ]
 -----------------------------------------------------------------*/
-@media screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   .mb-md50 {
     margin-bottom: 50px;
   }
@@ -596,9 +596,11 @@ footer p {
   .information{
     padding-bottom: 50px;
   }
-
+  .small-blog-title-link{
+    font-size: 12px;
+  }
 }
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .mb-sm50 {
     margin-bottom: 50px;
   }
@@ -619,6 +621,7 @@ footer p {
     font-size: 30px;
   }
 }
+
 @media screen and (max-width:400px){
   .header .caption h1 {
     font-size: 25px;
