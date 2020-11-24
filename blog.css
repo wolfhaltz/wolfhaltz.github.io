@@ -11,6 +11,19 @@ a:hover{ text-decoration: none; }
   min-height: 20rem;
 }
 
+.image-scroll {
+  width: auto;
+  height: 200px;
+  background-size: 100%;
+  background-position-x: 0;
+  background-repeat: no-repeat;
+  transition: all 10s ease;
+}
+.image-scroll:hover {
+  background-position-y: 100%;
+}
+
+
 /* stylelint-disable selector-list-comma-newline-after */
 
 .blog-header {
