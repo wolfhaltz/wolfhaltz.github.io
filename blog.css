@@ -3,6 +3,14 @@ a:hover{ text-decoration: none; }
 .text-darkred{ color: #b31e1e; }
 .text-darkred:hover{ color: #ff9d9d; }
 
+/* img */
+.bg-forest{
+  background-image: url('forest_darker.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 20rem;
+}
+
 /* stylelint-disable selector-list-comma-newline-after */
 
 .blog-header {
