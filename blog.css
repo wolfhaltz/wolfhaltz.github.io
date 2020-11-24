@@ -23,6 +23,14 @@ a:hover{ text-decoration: none; }
   background-position-y: 100%;
 }
 
+.image-about{
+  background-image: url('img/sloth.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 20rem;
+}
+
 div.card{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 /* stylelint-disable selector-list-comma-newline-after */
