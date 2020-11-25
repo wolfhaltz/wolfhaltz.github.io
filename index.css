@@ -144,3 +144,101 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #000;
   border-top: .05rem solid #e5e5e5;
 }
+
+
+/* show gospel */
+.card-showGospel{
+  background-color: #000000a8;
+  color: white;
+}
+.bg-showGospel{
+  background-image: url('img/showGospel/bg.png');
+  background-position: center;
+  background-size: contain;
+}
+.bg-showgospel-home{
+  background-image: url('img/showGospel/home.png');
+  background-size: cover;
+}
+.bg-showgospel-contato{
+  background-image: url('img/showGospel/contato.png');
+  background-size: cover;
+}
+.bg-showgospel-edicoes{
+  background-image: url('img/showGospel/edicoes.png');
+  background-size: cover;
+}
+.bg-showgospel-posts{
+  background-image: url('img/showGospel/posts.png');
+  background-size: cover;
+}
+.bg-showgospel-servicos{
+  background-image: url('img/showGospel/servicos.png');
+  background-size: cover;
+}
+.bg-showgospel-sobre{
+  background-image: url('img/showGospel/sobre.png');
+  background-size: cover;
+}
+.bg-showgospel-videos{
+  background-image: url('img/showGospel/videos.png');
+  background-size: cover;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+ .mockup-showgospel {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.mockup-showgospel::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-image: url(img/showGospel/home.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.mockup-showgospel-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+.mockup-showgospel-2::before {
+  background-image: url(img/showGospel/edicoes.png);
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* Extra utilities */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
