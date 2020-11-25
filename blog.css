@@ -32,7 +32,10 @@ a:hover{ text-decoration: none; }
 }
 
 div.card{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
+.card-dark{
+  background-color: black;
+  color: white;
+}
 /* stylelint-disable selector-list-comma-newline-after */
 
 .blog-header {
