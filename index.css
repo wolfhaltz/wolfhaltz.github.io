@@ -107,14 +107,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* portfolio */
-.jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;
+.bg-portfolio{
   background-image: url('img/adab/banner1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
   color: white;
 }
 @media (min-width: 768px) {
