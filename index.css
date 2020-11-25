@@ -36,19 +36,19 @@ div.card{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
   background-color: black;
   color: white;
 }
-/* stylelint-disable selector-list-comma-newline-after */
 
-.blog-header {
+/* header*/
+.header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
 }
 
-.blog-header-logo {
+.header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
 }
 
-.blog-header-logo:hover {
+.header-logo:hover {
   text-decoration: none;
 }
 
@@ -104,29 +104,6 @@ h1, h2, h3, h4, h5, h6 {
 .h-250 { height: 250px; }
 @media (min-width: 768px) {
   .h-md-250 { height: 250px; }
-}
-
-/* Pagination */
-.blog-pagination {
-  margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-  border-radius: 2rem;
-}
-
-/*
- * Blog posts
- */
-.blog-post {
-  margin-bottom: 4rem;
-}
-.blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
-}
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
 }
 
 /* Footer */
