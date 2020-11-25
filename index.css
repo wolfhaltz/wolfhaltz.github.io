@@ -5,10 +5,10 @@ a:hover{ text-decoration: none; }
 
 /* img */
 .bg-forest{
-  background-image: url('forest_darker.png');
+  background-image: url('forest_darker.png')!important;
   background-size: cover;
   background-position: center;
-  min-height: 20rem;
+  min-height: 25rem;
 }
 
 .image-scroll {
