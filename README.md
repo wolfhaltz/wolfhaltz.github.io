@@ -1,5 +1,5 @@
-# wolfhaltz.github.io
-## <a link="https://wolfhaltz.github.io/" target="_blank">Go to the website</a>
+# Welcome, outsider!
+## <a href="https://wolfhaltz.github.io/" target="_blank">Go to the website</a>
 
 Hey guys, what's up? :)
 Hope you're fine. :squirrel:
@@ -9,7 +9,7 @@ Hope you're fine. :squirrel:
 <img src="https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif">
  </p>
 
- My name is Beatriz, and, my heart beats for developing systems, AI and hacking.<br/>
+ My name is Beatriz and, my heart beats for developing systems, AI and hacking.<br/>
  This page is my portfolio, hope you enjoy it.<br/>
  Oh, you can also call me 0utsh1n3d_ or wolfhaltz :)<br/>
  <br/>
