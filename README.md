@@ -1,4 +1,5 @@
 # wolfhaltz.github.io
+## <a link="https://wolfhaltz.github.io/" target="_blank">Go to the website</a>
 
 Hey guys, what's up? :)
 Hope you're fine. :squirrel:
