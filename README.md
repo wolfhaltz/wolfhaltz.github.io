@@ -20,4 +20,4 @@ Hope you're fine. :squirrel:
 <img src="https://media.giphy.com/media/14kdiJUblbWBXy/giphy.gif">
 </p>
 
-<img src="img/wolfhaltz.png" />
+<img src="img/wh.png" />
