@@ -18,4 +18,6 @@ Hope you're fine. :squirrel:
                      
 <p align="center">
 <img src="https://media.giphy.com/media/14kdiJUblbWBXy/giphy.gif">
- </p>
+</p>
+
+<img src="img/wolfhaltz.png" />
