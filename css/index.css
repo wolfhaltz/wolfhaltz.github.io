@@ -1,0 +1,47 @@
+body {
+    font-family: 'Objectivity-Regular';
+}
+
+/* HEADER */
+.header_content {
+    margin: 15%;
+}
+.header_uppertittle {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.header_title{
+    font-size: 52px;
+}
+.header_description {
+    font-size: 18px;
+}
+.header_img {
+    background-image: url('../img/me.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 25%;
+    height: 800px;
+}
+.header_btn {
+    background-color: #746B67;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Objectivity-Light';
+}
+
+/* HABILITIES SECTION */
+.habilities_section{
+    background-image: url('../img/bg_cards_habilities.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.habilities_card{
+    background-color: #D9B9A7;
+    color: #ffffff;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Objectivity-Bold';
+    src: url(../font/Objectivity/Objectivity-Bold.woff2);
+}
+@font-face {
+    font-family: 'Objectivity-Medium';
+    src: url(../font/Objectivity/Objectivity-Medium.woff2);
+}
+@font-face {
+    font-family: 'Objectivity-Regular';
+    src: url(../font/Objectivity/Objectivity-Regular.woff2);
+}
+@font-face {
+    font-family: 'Objectivity-Light';
+    src: url(../font/Objectivity/Objectivity-Light.woff2);
+}
