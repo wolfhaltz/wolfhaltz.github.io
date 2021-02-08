@@ -78,6 +78,18 @@ body {
 
 /* BEST STUDY PROJECTS */
 
+/* CALL TO ACTION */
+.call_to_action {
+    background-color: #D9B9A7;
+}
+.call_to_action_text{
+    font-family: 'Objectivity-Light';
+    font-size: 36px;
+    color: #ffffff;
+}
+.call_to_action_btn_contact{ background-color: #BFA58E; color: #ffffff; }
+.call_to_action_btn_friends{ background-color: #ffffff; color: #BFA58E; border: 1px solid #BFA58E; }
+
 @media (max-width: 1000px){
     /* PRIORITIES SECTION */
     .priorities_img { height: 200px; }
