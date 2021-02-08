@@ -45,6 +45,9 @@ body {
     background-color: #D9B9A7;
     color: #ffffff;
 }
+.habilities_card_title {
+    font-family: 'Objectivity-Bold';
+}
 
 /* PRIORITIES SECTION */
 .priorities_img{
