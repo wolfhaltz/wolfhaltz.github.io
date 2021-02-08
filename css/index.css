@@ -104,6 +104,14 @@ footer {
 }
 
 @media (max-width: 1000px){
+    /* HEADER */
+    .header_title { font-size: 45px; margin-bottom: 3rem; }
+    .header_btn { margin-top: 2rem; }
+    .header_img {
+        border-radius: 0px;
+        height: 300px;
+    }
+    
     /* PRIORITIES SECTION */
     .priorities_img { height: 200px; }
     .priorities_img p{ font-size: 24px; }
