@@ -1,6 +1,10 @@
 body {
     font-family: 'Objectivity-Regular';
 }
+.default_title {
+    font-family: 'Objectivity-Bold';
+    font-size: 52px;
+}
 
 /* HEADER */
 .header_content {
@@ -69,10 +73,10 @@ body {
 }
 
 /* LEARN MORE */
-.learn_title {
-    font-family: 'Objectivity-Bold';
-    font-size: 52px;
-}
+
+/* CLIENTS */
+
+/* BEST STUDY PROJECTS */
 
 @media (max-width: 1000px){
     /* PRIORITIES SECTION */
