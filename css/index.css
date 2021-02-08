@@ -68,6 +68,12 @@ body {
     font-family: 'Objectivity-Bold';
 }
 
+/* LEARN MORE */
+.learn_title {
+    font-family: 'Objectivity-Bold';
+    font-size: 52px;
+}
+
 @media (max-width: 1000px){
     /* PRIORITIES SECTION */
     .priorities_img { height: 200px; }
