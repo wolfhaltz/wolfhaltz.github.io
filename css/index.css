@@ -90,6 +90,19 @@ body {
 .call_to_action_btn_contact{ background-color: #BFA58E; color: #ffffff; }
 .call_to_action_btn_friends{ background-color: #ffffff; color: #BFA58E; border: 1px solid #BFA58E; }
 
+/* FOOTER */
+footer {
+    background-color: #261712;
+    color: #ffffff;
+}
+.footer_border_bottom {
+    border-bottom: 1px solid #ffffff;
+}
+.copyrights {
+    font-family: 'Objectivity-Light';
+    font-size: 10px;
+}
+
 @media (max-width: 1000px){
     /* PRIORITIES SECTION */
     .priorities_img { height: 200px; }
