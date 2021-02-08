@@ -45,3 +45,29 @@ body {
     background-color: #D9B9A7;
     color: #ffffff;
 }
+
+/* PRIORITIES SECTION */
+.priorities_img{
+    background-image: url('../img/bg_priorities.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 472px;
+}
+.priorities_img p{
+    font-family: 'Objectivity-Bold';
+    font-size: 44px;
+}
+.priorities_title {
+    font-family: 'Objectivity-Bold';
+    font-size: 52px;
+}
+.priorities_span {
+    font-family: 'Objectivity-Bold';
+}
+
+@media (max-width: 1000px){
+    /* PRIORITIES SECTION */
+    .priorities_img { height: 200px; }
+    .priorities_img p{ font-size: 24px; }
+    .priorities_title {font-size: 32px;}
+}
