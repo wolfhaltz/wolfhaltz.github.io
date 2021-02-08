@@ -113,7 +113,7 @@ footer {
     }
     
     /* PRIORITIES SECTION */
-    .priorities_img { height: 200px; }
-    .priorities_img p{ font-size: 24px; }
+    .priorities_img { height: 300px; }
+    .priorities_img p{ font-size: 24px; margin-top: 1rem; }
     .priorities_title {font-size: 32px;}
 }
