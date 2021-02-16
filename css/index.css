@@ -40,16 +40,18 @@ body {
 
 /* HABILITIES SECTION */
 .habilities_section{
-    background-image: url('../img/bg_cards_habilities.jpg');
+    background-image: url('../img/habilities_bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 .habilities_card{
     background-color: #D9B9A7;
     color: #ffffff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 .habilities_card_title {
     font-family: 'Objectivity-Bold';
