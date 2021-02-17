@@ -83,16 +83,17 @@ body {
 /* BEST STUDY PROJECTS */
 
 /* CALL TO ACTION */
-.call_to_action {
+.call-to-action {
     background-color: #D9B9A7;
 }
-.call_to_action_text{
+.call-to-action__text{
     font-family: 'Objectivity-Light';
     font-size: 36px;
     color: #ffffff;
 }
-.call_to_action_btn_contact{ background-color: #BFA58E; color: #ffffff; }
-.call_to_action_btn_friends{ background-color: #ffffff; color: #BFA58E; border: 1px solid #BFA58E; }
+.call-to-action__btn{ padding: 15px 40px; }
+.call-to-action__btn--contact{ background-color: #BFA58E; color: #ffffff; }
+.call-to-action__btn--friends{ background-color: #ffffff; color: #BFA58E; border: 1px solid #BFA58E; }
 
 /* FOOTER */
 footer {
