@@ -112,6 +112,9 @@ body {
 /* LEARN MORE */
 
 /* CLIENTS */
+.clients__card--img{
+    max-width: 300px;
+}
 
 /* BEST STUDY PROJECTS */
 
