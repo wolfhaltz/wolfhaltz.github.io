@@ -39,7 +39,7 @@ body {
 }
 
 /* HABILITIES SECTION */
-.habilities_section{
+.habilities__section{
     background-image: url('../img/habilities_bg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -148,6 +148,16 @@ footer {
     .header_img {
         border-radius: 0px;
         height: 300px;
+    }
+
+    /* HABILITIES */
+    .habilities__section{
+        background-size: cover;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    .habilities__card--flip{
+        width: 280px;
     }
     
     /* PRIORITIES SECTION */
