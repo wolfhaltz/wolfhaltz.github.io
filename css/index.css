@@ -47,14 +47,47 @@ body {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
-.habilities_card{
+.habilities__card--content{ padding-top: 4rem; }
+.habilities__card--title {
+    font-family: 'Objectivity-Bold';
+}
+.habilities__card--flip {
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.habilities__card--flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.habilities__card--flip:hover .habilities__card--flip-inner {
+    transform: rotateY(180deg);
+}
+
+.habilities__card--flip-front, .habilities__card--flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.habilities__card--flip-front {
     background-color: #D9B9A7;
     color: #ffffff;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
 }
-.habilities_card_title {
-    font-family: 'Objectivity-Bold';
+
+.habilities__card--flip-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
 }
 
 /* PRIORITIES SECTION */
