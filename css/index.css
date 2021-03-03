@@ -16,6 +16,7 @@ body {
 }
 .header_title{
     font-size: 52px;
+    font-weight: 900;
 }
 .header_description {
     font-size: 18px;
@@ -47,7 +48,9 @@ body {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
-.habilities__card--content{ padding-top: 4rem; }
+.habilities__card--content{
+    padding: 2rem;
+}
 .habilities__card--title {
     font-family: 'Objectivity-Bold';
 }
