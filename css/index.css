@@ -26,8 +26,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom-left-radius: 25%;
-    height: 800px;
+    border-bottom-left-radius: 25%!important;
+    height: 800px!important;
 }
 .header_btn {
     background-color: #746B67;
