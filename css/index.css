@@ -22,15 +22,16 @@ body {
     font-size: 18px;
 }
 .header_img {
-    background-image: url('../img/me.jpg');
-    background-position: center;
+    /* background-image: url('../img/me.jpg'); */
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #FDD9D9;
     border-bottom-left-radius: 25%;
-    height: 800px;
+    height: 700px;
 }
 .header_btn {
-    background-color: #746B67;
+    background-color: #191919;
     color: #ffffff;
     border-radius: 12px;
     border: none;
@@ -38,13 +39,15 @@ body {
     font-size: 20px;
     font-family: 'Objectivity-Light';
 }
+.header_btn:hover{background-color: #b962fb;}
 
 /* HABILITIES SECTION */
 .habilities__section{
-    background-image: url('../img/habilities_bg.png');
+    /* background-image: url('../img/habilities_bg.png'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
+    background-color: #e69fa8;
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -121,6 +124,8 @@ body {
 
 /* BEST STUDY PROJECTS */
 
+/* testimonials */
+.testimonials{background-color: #D5FAFC;}
 /* CALL TO ACTION */
 .call-to-action {
     background-color: #D9B9A7;
@@ -136,7 +141,7 @@ body {
 
 /* FOOTER */
 footer {
-    background-color: #261712;
+    background-color: #191919;
     color: #ffffff;
 }
 .footer_border_bottom {
