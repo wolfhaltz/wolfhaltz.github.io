@@ -1,3 +1,8 @@
+/* GENERAL */
+body{
+    color: #363636;
+}
+
 /* HEADER */
 .header__title--upper{
     font-size: 16px;
@@ -87,6 +92,31 @@
 /* PROJECTS PAGE */
 .header--projects__title{
     font-size: 144px;
+    font-weight: bold;
+}
+.about--project__title-upper{
+    font-size: 22px;
+    font-weight: bold;
+    color: #7D7D7D;
+}
+.about--project__title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.about--project__table--thead{
+    font-size: 24px;
+    font-weight: bold;
+}
+.about--project__table--tbody{
+    font-size: 20px;
+    color: #969696;
+}
+.about--project__title--brief-idea{
+    font-size: 36px;
+    font-weight: bold;
+}
+.about--project__next-project{
+    font-size: 96px;
     font-weight: bold;
 }
 
