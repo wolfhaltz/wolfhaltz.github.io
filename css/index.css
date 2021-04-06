@@ -68,3 +68,10 @@
 .footer_address{
     font-size: 16px;
 }
+
+
+/* CONTACT PAGE */
+.header--contact__title{
+    font-size: 144px;
+    font-weight: bold;
+}
