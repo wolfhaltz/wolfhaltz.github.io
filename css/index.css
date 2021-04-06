@@ -24,3 +24,16 @@ body {
     font-size: 96px;
     font-weight: bold;
 }
+
+/* ABOUT */
+.about__title--upper{
+    font-size: 24px;
+    font-weight: 100;
+}
+.about__title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.about__description{
+    font-size: 18px;
+}
