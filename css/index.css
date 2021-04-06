@@ -18,3 +18,9 @@ body {
 .header__description{
     font-size: 18px;
 }
+
+/* SERVICES */
+.services__title{
+    font-size: 96px;
+    font-weight: bold;
+}
