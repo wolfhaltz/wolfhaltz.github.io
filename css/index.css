@@ -84,6 +84,12 @@
     display: block;
 }
 
+/* PROJECTS PAGE */
+.header--projects__title{
+    font-size: 144px;
+    font-weight: bold;
+}
+
 /* PROJECT PAGE */
 .header--project__title{
     font-size: 144px;
