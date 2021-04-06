@@ -1,11 +1,3 @@
-body {
-    font-family: 'Objectivity-Regular';
-}
-.default_title {
-    font-family: 'Objectivity-Bold';
-    font-size: 52px;
-}
-
 /* HEADER */
 .header__title--upper{
     font-size: 16px;
