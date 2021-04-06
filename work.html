@@ -36,6 +36,19 @@
             <p class="header--contact__title">Projects</p>
         </div>
 
+        <!-- MAIN -->
+        <div class="container text-center pt-5 pb-5">
+            <div id="filter" class="pt-5 pb-5">
+                <button class="btn active" onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('design')"> Design</button>
+                <button class="btn" onclick="filterSelection('dev')"> Development</button>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="filterOption design"><img src="https://dummyimage.com/500x740/737373/ffffff.png" alt=""></div>
+                <div class="filterOption dev"><img src="https://dummyimage.com/500x420/737373/ffffff.png" alt=""></div>
+                <div class="filterOption all"><img src="https://dummyimage.com/500x280/737373/ffffff.png" alt=""></div>
+            </div>
+        </div>
 
         <!-- FOOTER -->
         <div class="container pt-5 pb-5">
@@ -64,5 +77,53 @@
                 </div>
             </div>
         </div>
+
+
+        <script>
+            filterSelection("all");
+
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("filterOption");
+                if (c == "all") c = "";
+                for (i = 0; i < x.length; i++) {
+                    removeFromFilter(x[i], "filterShow");
+                    if (x[i].className.indexOf(c) > -1) addOnFilter(x[i], "filterShow");
+              }
+            }
+            
+            function addOnFilter(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+              }
+            }
+            
+            function removeFromFilter(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                }
+              }
+              element.className = arr1.join(" ");
+            }
+            
+            
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("filter");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+              btns[i].addEventListener("click", function(){
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+              });
+            }
+        </script>
     </body>
 </html>

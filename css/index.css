@@ -76,3 +76,10 @@
     font-size: 64px;
     font-weight: bold;
 }
+/* CONTACT PAGE: FILTER */
+.filterOption {
+    display: none;
+  }
+.filterShow {
+    display: block;
+}
