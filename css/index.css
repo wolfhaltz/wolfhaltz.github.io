@@ -83,3 +83,9 @@
 .filterShow {
     display: block;
 }
+
+/* PROJECT PAGE */
+.header--project__title{
+    font-size: 144px;
+    font-weight: bold;
+}
