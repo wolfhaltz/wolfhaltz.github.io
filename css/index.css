@@ -3,6 +3,14 @@ body{
     color: #363636;
 }
 
+/* NAVBAR */
+a.nav-link{
+    font-weight: bold;
+    color: #363636;
+}
+a.nav-link:hover{
+    color: #e82e31;
+}
 /* HEADER */
 .header__title--upper{
     font-size: 16px;
