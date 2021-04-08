@@ -135,6 +135,7 @@ a.nav-link:hover{
 }
 
 @media only screen and (max-width: 1000px) {
+    .header--projects__title{font-size: 64px;}
     .header--contact__title{font-size: 64px;}
     .main--contact__title{font-size: 48px;}
 }
