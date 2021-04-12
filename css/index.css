@@ -129,7 +129,7 @@ a.nav-link:hover{
 }
 
 /* PROJECTS PAGE */
-.header--projects__title{
+.header--project__title{
     font-size: 144px;
     font-weight: bold;
 }
@@ -156,12 +156,6 @@ a.nav-link:hover{
 }
 .about--project__next-project{
     font-size: 96px;
-    font-weight: bold;
-}
-
-/* PROJECT PAGE */
-.header--project__title{
-    font-size: 144px;
     font-weight: bold;
 }
 

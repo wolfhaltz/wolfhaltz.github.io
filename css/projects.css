@@ -1,0 +1,21 @@
+.header--projects__title{
+    font-size: 144px;
+    font-weight: bold;
+    color: #fff;
+    filter: drop-shadow(0px 0px 5px #000);
+    margin-top: auto;
+}
+.header--projects__bg{
+    /* building */
+    height: 300px;
+    /* bg */
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/designer-using-tablet-planning-wireframe-mobile-website-ux-ui-app-development.jpg');
+    /* style */
+    filter: grayscale(80%) drop-shadow(0px 0px 5px #000);
+}
+
+@media only screen and (max-width: 1000px) {
+    .header--projects__title{font-size: 64px;}
+}
