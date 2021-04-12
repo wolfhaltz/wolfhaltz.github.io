@@ -24,6 +24,37 @@ a.nav-link:hover{
     font-size: 18px;
 }
 
+/* DUOTONE */
+.duotone-card__img{
+    width: 200px;
+    height: 200px;
+}
+.duotone-card__filter{
+    /* building */
+    height: 300px;
+    width: 200px;
+    /* style */
+    background-size: cover;
+    background-position: center;
+    transition: .5s ease;
+    filter: grayscale(80%) drop-shadow(0px 0px 5px #000);
+}
+.duotone-card__filter:hover{
+    filter: none;
+}
+.duotone-card__content{
+    /* position */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* building */
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    /* style*/
+    background-color: #0c1f72;
+    color: #fff;
+}
+
 /* SERVICES */
 .services__title{
     font-size: 96px;
