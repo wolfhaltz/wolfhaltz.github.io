@@ -121,9 +121,20 @@ a.nav-link:hover{
 
 
 /* CONTACT PAGE */
+.header--contact__bg{
+    /* building */
+    height: 300px;
+    /* bg */
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/contact.png');
+    /* style */
+    filter: grayscale(80%) drop-shadow(0px 0px 5px #000);
+}
 .header--contact__title{
     font-size: 144px;
     font-weight: bold;
+    color: #ffffff;
 }
 .main--contact__title{
     font-size: 64px;
