@@ -88,13 +88,30 @@ a.nav-link:hover{
     font-size: 24px;
     font-weight: 100;
 }
+.latest-projects__card__img{
+    max-width: 350px;
+    max-height: 450px;
+    transition: all .2s ease-in-out;
+}
+.latest-projects__card__img:hover{ transform: scale(1.1); margin-bottom: 5%; }
 .latest-projects__card--title{
     font-size: 24px;
     font-weight: bold;
+    margin-top: 5%;
+    color: #000;
+    transition: all .2s ease-in-out;
 }
 .latest-projects__card--description{
     font-size: 18px;
     font-weight: 100;
+    color: #000;
+    transition: all .2s ease-in-out;
+}
+.latest-projects__card--a:hover,
+.latest-projects__card--a p:hover{
+    color: #44ccd3;
+    text-decoration: none;
+    transform: scale(1.1);
 }
 
 /* BLOG */
