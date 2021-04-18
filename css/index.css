@@ -28,6 +28,15 @@ a.nav-link:hover{
 .header__description{
     font-size: 18px;
 }
+.header__bg--home{
+    /* building */
+    height: 700px;
+    /* typography */
+    color: #ffffff;
+    /* style */
+    background-image: url('../img/software-source-coding-panel-metallic-floor.jpg');
+    background-size: cover;
+}
 
 /* DUOTONE */
 .duotone-card__img{
