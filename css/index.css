@@ -75,8 +75,8 @@ a.nav-link:hover{
     font-weight: bold;
 }
 .services__img{
-    width: 400px;
-    height: 150px;
+    max-width: 400px;
+    max-height: 150px;
 }
 /* ABOUT */
 .about__title--upper{
@@ -210,6 +210,9 @@ a.nav-link:hover{
 
 @media only screen and (max-width: 1000px) {
     .header--home--img{max-width: 350px;}
+    .header--home__box{background-color: #00000091;padding: 5%;margin-top: 30%;}
+    .services__title{font-size: 64px;}
+    .services__img{width: 300px;}
     .header--projects__title{font-size: 64px;}
     .header--project__title{font-size: 64px;}
     .header--contact__title{font-size: 64px;}
