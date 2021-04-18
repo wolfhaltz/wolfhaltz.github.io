@@ -2,6 +2,8 @@
 body{
     color: #363636;
 }
+a{color: #44ccd3;}
+a:hover{color: #44ccd3;font-weight: bold;text-decoration: none;}
 
 /* NAVBAR */
 .navbar--position{
