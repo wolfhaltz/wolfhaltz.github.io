@@ -4,7 +4,10 @@ body{
 }
 a{color: #44ccd3;}
 a:hover{color: #44ccd3;font-weight: bold;text-decoration: none;}
-
+.section__margin{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 /* NAVBAR */
 .navbar--position{
     position: absolute;
