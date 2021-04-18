@@ -65,7 +65,10 @@ a.nav-link:hover{
     font-size: 96px;
     font-weight: bold;
 }
-
+.services__img{
+    width: 400px;
+    height: 150px;
+}
 /* ABOUT */
 .about__title--upper{
     font-size: 24px;
