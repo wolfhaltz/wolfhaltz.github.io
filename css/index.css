@@ -42,12 +42,13 @@ a.nav-link:hover{
     font-size: clamp(2em, 3em + 1vw, 4em);
     font-weight: bold;
 }
-.header__description{
-    font-size: clamp(1em, 1em + 1vw, 1em)
-}
 .header__bg--home{
     /* building */
+    /* position */
     height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* typography */
     color: #ffffff;
     /* style */
