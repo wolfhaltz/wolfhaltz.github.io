@@ -138,21 +138,8 @@ a.nav-link:hover{
 
 
 /* CONTACT PAGE */
-.header--contact__bg{
-    /* building */
-    height: 300px;
-    /* bg */
-    background-size: cover;
-    background-position: center;
-    background-image: url('../img/contact.png');
-    /* style */
-    filter: grayscale(80%) drop-shadow(0px 0px 5px #000);
-}
-.header--contact__title{
-    font-size: clamp(1em, 4em + 5vw, 15em);
-    font-weight: bold;
-    color: #ffffff;
-}
+.header--contact__bg{background-image: url('../img/contact.png');filter: grayscale(80%) drop-shadow(0px 0px 5px #000);}
+.header--contact__title{color: #ffffff;}
 .main--contact__title{
     font-size: 64px;
     font-weight: bold;
@@ -207,20 +194,21 @@ a.nav-link:hover{
     .main--contact__title{font-size: 48px;}
 }
 
-
-/* WORK PAGE */
-.header--projects__title{
-    font-size:  clamp(1em, 4em + 5vw, 15em);
-    font-weight: bold;
-    color: #fff;
-}
-.header--projects__bg{
+/* GENERAL INTERN PAGES*/
+.header--intern{
     /* building */
     height: 300px;
     /* position */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* bg */
-    background-color: black;
 }
+.header--intern__title{
+    font-size:  clamp(1em, 4em + 5vw, 15em);
+    font-weight: bold;
+}
+
+
+/* WORK PAGE */
+.header--projects__title{color: #fff;}
+.header--projects__bg{background-color: black;}
