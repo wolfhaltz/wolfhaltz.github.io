@@ -206,3 +206,21 @@ a.nav-link:hover{
     .header--contact__title{font-size: 64px;}
     .main--contact__title{font-size: 48px;}
 }
+
+
+/* WORK PAGE */
+.header--projects__title{
+    font-size:  clamp(1em, 4em + 5vw, 15em);
+    font-weight: bold;
+    color: #fff;
+}
+.header--projects__bg{
+    /* building */
+    height: 300px;
+    /* position */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bg */
+    background-color: black;
+}
