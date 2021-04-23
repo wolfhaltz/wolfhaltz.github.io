@@ -209,7 +209,10 @@ a.nav-link:hover{
     font-weight: bold;
 }
 
-
+/* ABOUT PAGE */
+:root{counter-reset: questions;}
+.about--question{counter-increment: questions;}
+.about--question::before{content:counter(questions);font-size: clamp(1em, 1em + 1vw, 2em);font-weight: bold;}
 /* WORK PAGE */
 .header--projects__title{color: #fff;}
 .header--projects__bg{background-color: black;}
