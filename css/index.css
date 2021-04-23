@@ -2,6 +2,7 @@
 body{
     color: #363636;
 }
+img{max-width: -webkit-fill-available;}
 a{color: #44ccd3;}
 a:hover{color: #44ccd3;font-weight: bold;text-decoration: none;}
 .section__margin{
@@ -13,6 +14,11 @@ a:hover{color: #44ccd3;font-weight: bold;text-decoration: none;}
     font-size: clamp(2em, 2em + 1vw, 3em);
     font-weight: bold;
 }
+.title--default--upper{
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    font-weight: 100;
+}
+.text--default{font-size: clamp(1em, 1em + 1vw, 1.1em);}
 
 /* NAVBAR */
 .navbar--position{
@@ -89,25 +95,13 @@ a.nav-link:hover{
     max-width: 400px;
     max-height: 150px;
 }
-/* ABOUT */
-.about__title--upper{
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
-    font-weight: 100;
-}
-.about__description{
-    font-size: 18px;
-}
 
 /* LATEST PROJECTS */
 .latest-projects__title--sub{
     font-size: 24px;
     font-weight: 100;
 }
-.latest-projects__card__img{
-    max-width: 350px;
-    max-height: 450px;
-    transition: all .2s ease-in-out;
-}
+.latest-projects__card__img{transition: all .2s ease-in-out;}
 .latest-projects__card__img:hover{ transform: scale(1.1); margin-bottom: 5%; }
 .latest-projects__card--title{
     font-size: 24px;
@@ -130,16 +124,11 @@ a.nav-link:hover{
 }
 
 /* BLOG */
-.blog__title--lower{
-    font-size: 28px;
-}
-.blog__description{
-    font-size: 18px;
-}
+.blog__title--lower{font-size: clamp(1em, 1em + 1vw, 2em);}
 
 /* FOOTER */
 .footer_title{
-    font-size: 36px;
+    font-size: clamp(1em, 2em + 1vw, 2.3em);
     font-weight: bold;
 }
 .footer__primary,
@@ -216,5 +205,4 @@ a.nav-link:hover{
     .header--project__title{font-size: 64px;}
     .header--contact__title{font-size: 64px;}
     .main--contact__title{font-size: 48px;}
-    .blog--home--image{max-width: 350px;}
 }
