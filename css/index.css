@@ -45,7 +45,7 @@ a.nav-link:hover{
 .header__bg--home{
     /* building */
     /* position */
-    height: 700px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
