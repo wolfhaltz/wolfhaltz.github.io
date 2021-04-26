@@ -147,6 +147,7 @@ a.nav-link:hover{
 .footer__primary,
 .footer__primary a{background-color: var(--footer-bg-primary); color: #fff;}
 .footer__second{background-color: var(--footer-bg-secondary); color: #fff;}
+.footer__second p{font-size: 12px; font-style: italic;}
 .list-group-item{background-color: transparent!important;border: 0!important;}
 
 
