@@ -1,3 +1,7 @@
+:root{
+    --footer-bg-primary: #4a4a4a;
+    --footer-bg-secondary: #363636;
+}
 /* GENERAL */
 body{
     color: #363636;
@@ -133,8 +137,8 @@ a.nav-link:hover{
     font-weight: bold;
 }
 .footer__primary,
-.footer__primary a{background-color: #4a4a4a; color: #fff;}
-.footer__second{background-color: #363636;color: #fff;}
+.footer__primary a{background-color: var(--footer-bg-primary); color: #fff;}
+.footer__second{background-color: var(--footer-bg-secondary); color: #fff;}
 .list-group-item{background-color: transparent!important;border: 0!important;}
 
 
