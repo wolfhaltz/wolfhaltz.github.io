@@ -1,4 +1,5 @@
 :root{
+    --link: #44ccd3;
     --footer-bg-primary: #4a4a4a;
     --footer-bg-secondary: #363636;
 }
@@ -7,8 +8,8 @@ body{
     color: #363636;
 }
 img{max-width: -webkit-fill-available;}
-a{color: #44ccd3;}
-a:hover{color: #44ccd3;font-weight: bold;text-decoration: none;}
+a{color: var(--link);}
+a:hover{color: var(--link);font-weight: bold;text-decoration: none;}
 .section__margin{
     margin-top: 10%;
     margin-bottom: 10%;
@@ -123,7 +124,7 @@ a.nav-link:hover{
 }
 .latest-projects__card--a:hover,
 .latest-projects__card--a p:hover{
-    color: #44ccd3;
+    color: var(--link);
     text-decoration: none;
     transform: scale(1.1);
 }
