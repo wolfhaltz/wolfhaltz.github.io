@@ -1,21 +1,74 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- General SEO -->
+        <title>Lima, Beatriz</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="I'm Beatriz Lima, a developer and UI/UX Designer">
         <meta name="author" content="Beatriz Lima">
-        
-        <title>Lima, Beatriz</title>
-    
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font.css" rel="stylesheet">
-        <link href="../css/index.css" rel="stylesheet">
+        <meta name="robots" content="index">
+        <link rel="canonical" href="https://wolfhaltz.github.io">
+        <!-- Schema.org -->
+        <meta itemprop="name" content="Lima, Beatriz">
+        <meta itemprop="description" content="I'm Beatriz Lima, a developer and UI/UX Designer">
+        <meta itemprop="image" content="https://wolfhaltz.github.io/img/banner-blog.png">
+        <!-- Open Graph Facebook -->
+        <meta property="og:title" content="Lima, Beatriz">
+        <meta property="og:description" content="I'm Beatriz Lima, a developer and UI/UX Designer"/>
+        <meta property="og:url" content="Link da página">
+        <meta property="og:site_name" content="Lima, Beatriz"/>
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://wolfhaltz.github.io/img/banner-blog.png">
+        <!-- Twitter -->
+        <meta name="twitter:title" content="Lima, Beatriz">
+        <meta name="twitter:description" content="I'm Beatriz Lima, a developer and UI/UX Designer">
+        <meta name="twitter:url" content="https://wolfhaltz.github.io/">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="https://wolfhaltz.github.io/img/banner-blog.png">
+        <meta name="twitter:creator" content="@wolfhaltz">
+        <!-- Style -->
+        <link href="../src/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../src/css/font.css" rel="stylesheet">
+        <link href="../src/css/index.css" rel="stylesheet">
+        <!--
+            Ho ho! Ya found an easter egg!
+            "So go on and tell me now... Do you have enough love in your heart, to go and get your hands dirty?"
+            - Dirty, Grandson
+        -->
+        <!-- Animation -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/a05d3f8939.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar--position">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bsideofcode.blogspot.com" target="_blank">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
         <!-- HEADER -->
-        <div class="text-center">
-            <p>Fauna Brasil</p>
+        <div class="header--intern" style="background-color: #808080;">
+            <p class="header--intern__title" data-aos="fade-up" data-aos-duration="2000">Fauna Brasil</p>
         </div>
 
         <div class="container mb-5">
@@ -51,5 +104,44 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- FOOTER -->
+        <div class="footer__primary">
+            <div class="container pt-5 pb-5" data-aos="fade-up" data-aos-duration="2000">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-12 col-md-3">
+                        <p class="footer_title">Lima, Beatriz.</p>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="list-group-flush">
+                            <li class="list-group-item"><a href="./projects.html">Projects</a></li>
+                            <li class="list-group-item"><a href="https://bsideofcode.blogspot.com" target="_blank">Blog</a></li>
+                            <li class="list-group-item"><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="mb-2"><p>Curitiba, Paraná - Brazil</p></div>
+                        <div class="d-flex justify-content-between">
+                            <a href="https://twitter.com/wolfhaltz" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/bridgetocross/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/rodrigueszink/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://linkedin.com/in/beatriz1996/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__second">
+            <div class="container pt-3 pb-3">
+                <p class="m-0">All rights reserved. Lima, Beatriz - 2021</p>
+            </div>
+        </div>
+        
+        <!-- Animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
