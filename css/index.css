@@ -1,11 +1,12 @@
 :root{
+    --body-text: #363636;
     --link: #44ccd3;
     --footer-bg-primary: #4a4a4a;
     --footer-bg-secondary: #363636;
 }
 /* GENERAL */
 body{
-    color: #363636;
+    color: var(--body-text);
 }
 img{max-width: -webkit-fill-available;}
 a{color: var(--link);}
