@@ -36,6 +36,8 @@
             "So go on and tell me now... Do you have enough love in your heart, to go and get your hands dirty?"
             - Dirty, Grandson
         -->
+        <!-- Animation -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <!-- NAVBAR -->
@@ -65,7 +67,7 @@
         <div class="header__bg--home">
             <div class="container pt-5 pb-5">
                 <div class="row d-flex justify-content-end">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6" data-aos="fade-up">
                         <div class="header--home__box">
                             <p class="header__title--upper">Hello there, how are you?</p>
                             <p class="header__title">Full-stack <br>& Design</p>
@@ -80,10 +82,10 @@
         <!-- ABOUT -->
         <div class="container section__margin">
             <div class="row d-flex">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="zoom-out-right" data-aos-duration="1000">
                     <img src="https://dummyimage.com/360x460/737373/ffffff.png" alt="">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="zoom-out-left" data-aos-duration="1000">
                     <p class="title--default--upper">About me and what I do</p>
                     <p class="title--default">Design & Development:<br>Am I an Unicorn?</p>
                     <p class="text--default">
@@ -105,7 +107,7 @@
         </div>
 
         <!-- LATEST PROJECTS -->
-        <div class="container section__margin">
+        <div class="container section__margin" data-aos="fade-up" data-aos-duration="2000">
             <div class="row d-flex pb-3">
                 <div class="col-12 col-md-6"><p class="title--default">Latest Projects</p></div>
                 <div class="col-12 col-md-6 d-flex justify-content-end"><a href="./work.html" class="latest-projects__title--sub">See more projects</a></div>
@@ -136,7 +138,7 @@
         </div>
 
         <!-- BLOG -->
-        <div class="container section__margin">
+        <div class="container section__margin" data-aos="fade-up" data-aos-duration="2000">
             <div class="row">
                 <div class="col-12">
                     <div class="row d-flex">
@@ -164,7 +166,7 @@
 
         <!-- FOOTER -->
         <div class="footer__primary">
-            <div class="container pt-5 pb-5">
+            <div class="container pt-5 pb-5" data-aos="fade-up" data-aos-duration="2000">
                 <div class="row d-flex justify-content-around">
                     <div class="col-12 col-md-3">
                         <p class="footer_title">Lima, Beatriz.</p>
@@ -195,5 +197,11 @@
                 <p class="m-0">All rights reserved. Lima, Beatriz - 2021</p>
             </div>
         </div>
+
+        <!-- Animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
