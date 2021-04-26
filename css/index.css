@@ -113,6 +113,7 @@ a.nav-link:hover{
 .latest-projects__title--sub{
     font-size: clamp(1em, 1em + 1vw, 2em);
     font-weight: 100;
+    transition: 0.2s;
 }
 .latest-projects__card__img{transition: all .2s ease-in-out;}
 .latest-projects__card__img:hover{ transform: scale(1.1); margin-bottom: 5%; }
