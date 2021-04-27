@@ -150,6 +150,7 @@ a.nav-link:hover{
 .footer__second{background-color: var(--footer-bg-secondary); color: #fff;}
 .footer__second p{font-size: 12px; font-style: italic;}
 .list-group-item{background-color: transparent!important;border: 0!important;}
+.footer__social-media--icon:hover{transform: scale(1.5);transition: 0.2s;}
 
 /* CONTACT PAGE */
 .header--contact__bg{background-image: url('../img/contact.png');filter: grayscale(80%) drop-shadow(0px 0px 5px #000);}
