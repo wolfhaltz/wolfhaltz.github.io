@@ -221,6 +221,7 @@ a.nav-link:hover{
     font-size:  clamp(1em, 4em + 5vw, 15em);
     font-weight: bold;
 }
+.header--intern__title--big{font-size:clamp(1em, 2em + 5vw, 10em);font-weight: bold;}
 
 /* ABOUT PAGE */
 :root{counter-reset: questions;}
