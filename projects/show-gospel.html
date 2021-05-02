@@ -71,15 +71,91 @@
             <p class="header--intern__title" data-aos="fade-up" data-aos-duration="2000">Show Gospel</p>
         </div>
 
+        <div class="container pt-5 pb-5">
+            <div class="row pt-5 pb-5">
+                <div class="col-12 col-md-6">
+                    <p class="title--default--upper">About the project</p>
+                    <p class="title--default">Description</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    Show Gospel is gospel news website, from the magazine that have the same name, which I developed using PHP and Laravel.
+                    It also contains a dashboard to manage posts.
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax parallax--show-gospel"></div>
 
         <div class="container pt-5 pb-5">
-            <div class="row">
-                <div class="col-12 pb-5">
-                    <b>WARNING!</b>
-                    <br>
-                    It's coming up, it's coming up.... It's dare!
-                    <br>
-                    <a href="../index.html">Back to home</a>
+            <div class="row d-flex justify-content-center">
+                <div class="col-6" style="position: relative;">
+                    <div class="mySlides">
+                      <div class="numbertext">1 / 7</div>
+                      <img class="slider__img" src="../src/img/show-gospel/home.png" />
+                    </div>
+                  
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 7</div>
+                      <img class="slider__img" src="../src/img/show-gospel/posts.png" />
+                    </div>
+    
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 7</div>
+                        <img class="slider__img" src="../src/img/show-gospel/edicoes.png" />
+                    </div>
+    
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 7</div>
+                        <img class="slider__img" src="../src/img/show-gospel/servicos.png" />
+                    </div>
+    
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 7</div>
+                        <img class="slider__img" src="../src/img/show-gospel/videos.png" />
+                    </div>
+    
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 7</div>
+                        <img class="slider__img" src="../src/img/show-gospel/sobre.png" />
+                    </div>
+    
+                    <div class="mySlides">
+                        <div class="numbertext">7 / 7</div>
+                        <img class="slider__img" src="../src/img/show-gospel/contato.png" />
+                    </div>
+                      
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                  
+                    <div class="slider__caption-container">
+                      <p id="caption"></p>
+                    </div>
+                </div>
+        
+                <div class="col-6">
+                    <div class="row-slide">
+                        <div class="column-slide">
+                          <img class="demo cursor" src="../src/img/show-gospel/home.png" style="width:100%" onclick="currentSlide(1)" alt="Home">
+                        </div>
+                        <div class="column-slide">
+                          <img class="demo cursor" src="../src/img/show-gospel/posts.png" style="width:100%" onclick="currentSlide(2)" alt="Posts">
+                        </div>
+                        <div class="column-slide">
+                          <img class="demo cursor" src="../src/img/show-gospel/edicoes.png" style="width:100%" onclick="currentSlide(3)" alt="Editions">
+                        </div>
+                        <div class="column-slide">
+                          <img class="demo cursor" src="../src/img/show-gospel/servicos.png" style="width:100%" onclick="currentSlide(4)" alt="Services">
+                        </div>
+                        <div class="column-slide">
+                          <img class="demo cursor" src="../src/img/show-gospel/videos.png" style="width:100%" onclick="currentSlide(5)" alt="Videos">
+                        </div>
+                        <div class="column-slide">
+                          <img class="demo cursor" src="../src/img/show-gospel/sobre.png" style="width:100%" onclick="currentSlide(6)" alt="About">
+                        </div>
+                        <div class="column-slide">
+                          <img class="demo cursor" src="../src/img/show-gospel/contato.png" style="width:100%" onclick="currentSlide(7)" alt="Contact">
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -122,5 +198,6 @@
         <script>
             AOS.init();
         </script>
+        <script src="../src/js/index.js"></script>
     </body>
 </html>
